@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valle Grande</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo1.png" alt="Valle Grande Logo" class="logo">
+        
+        <div class="nav-buttons">
+            <a href="inicio.html" class="nav-btn">Inicio</a>
+            <button class="nav-btn">Nosotros</button>
+            <button class="nav-btn">Historia</button>
+            <button class="nav-btn">Video</button>
+            
+    </header>
+
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-slide active slide-agro">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2>Agronomía</h2>
+                        <p>Formación en sistemas y agronomía, integrando tecnología, innovación y desarrollo sostenible para el futuro del campo.</p>
+                        <button class="leer-mas-btn">Leer Más</button>
+                    </div>
+                    <div class="slide-image">
+                        <div class="mini-carousel">
+                            <img src="imagenes/agronomia.jpg" alt="Agronomia" class="mini-slide active">
+                            <img src="imagenes/agronomia1.jpg" alt="agronomia" class="mini-slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-slide slide-sistemas">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2>Análisis de Sistemas Empresariales</h2>
+                        <p>Desarrolla soluciones tecnológicas innovadoras para empresas, integrando análisis de datos, programación y gestión de proyectos.</p>
+                        <button class="leer-mas-btn">Leer Más</button>
+                    </div>
+                    <div class="slide-image">
+                        <div class="mini-carousel">
+                            <img src="imagenes/sistemas.jpg" alt="Sistemas 1" class="mini-slide active">
+                            <img src="imagenes/sistemas1.jpg" alt="Sistemas 2" class="mini-slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-arrow arrow-left" onclick="changeSlide(-1)">‹</button>
+        <button class="carousel-arrow arrow-right" onclick="changeSlide(1)">›</button>
+
+        <div class="carousel-controls">
+            <div class="carousel-dot active" onclick="goToSlide(0)"></div>
+            <div class="carousel-dot" onclick="goToSlide(1)"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

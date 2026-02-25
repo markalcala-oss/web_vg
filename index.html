@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Valle Grande - Bienvenida</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="portada.css">
+</head>
+<body class="m-0 p-0 overflow-x-hidden">
+    <div id="landing" class="min-h-screen bg-gradient-to-br from-gray-100 via-white to-amber-50 flex items-center justify-center p-4 transition-opacity duration-500">
+        <div class="background-pattern absolute inset-0 opacity-30"></div>
+        
+        <div class="max-w-6xl w-full relative z-10">
+            <div class="bg-white/95 backdrop-blur-lg rounded-3xl shadow-2xl border-2 border-amber-300 overflow-hidden">
+                <div class="flex flex-col md:flex-row items-center gap-12 p-8 md:p-16">
+                    
+                    <div class="flex items-center justify-center flex-shrink-0">
+                        <div class="text-center transform hover:scale-105 transition-transform duration-300">
+                            <div class="bg-gradient-to-br from-amber-500 to-amber-600 rounded-3xl p-10 shadow-2xl">
+                                <img src="logo.png" alt="Logo Valle Grande" class="w-40 h-40 mx-auto mb-4 object-contain">
+                                <h1 class="text-5xl font-bold text-white mb-2 uppercase tracking-tight">Valle Grande</h1>
+                                <div class="h-1 w-32 bg-white mx-auto rounded-full"></div>
+                                <p class="text-white font-semibold mt-3 text-xl">Instituto Superior</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col justify-center text-left space-y-6 flex-1 md:pl-8">
+                        <div class="space-y-4">
+                            <h2 class="text-5xl md:text-7xl font-bold leading-tight text-gray-900">Bienvenido a</h2>
+                            <h2 class="text-5xl md:text-7xl font-bold leading-tight">
+                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-amber-600">
+                                    Valle Grande
+                                </span>
+                            </h2>
+                            <p class="text-2xl md:text-3xl text-gray-700 font-light italic">
+                                Formamos profesionales con excelencia y valores
+                            </p>
+                            <div class="flex items-center gap-3 text-amber-600">
+                                <div class="h-px w-16 bg-amber-500"></div>
+                                <span class="text-xs md:text-base font-bold tracking-widest uppercase">Tu futuro comienza aquí</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <a href="inicio.html" id="btnIngresar" class="group relative bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-14 py-6 rounded-full text-2xl font-bold shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center gap-4 w-fit">
+                                Ingresar
+                                <svg class="w-7 h-7 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                </svg>
+                            </a>
+                            <p class="text-sm text-gray-500 italic">Descubre nuestras carreras y servicios educativos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8 text-gray-600 text-xs md:text-sm font-medium">
+                <p>© 2026 Instituto Valle Grande - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="portada.js"></script>
+</body>
+</html>

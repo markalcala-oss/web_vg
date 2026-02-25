@@ -1,0 +1,263 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 65px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-btn {
+    padding: 12px 30px;
+    background-color: #FF9800;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000; 
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    background-color: #F57C00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+}
+
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    max-width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.content-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.content-block {
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.content-block h2 {
+    color: #de0404; 
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.content-block.historia-flex h2 {
+    color: #1900ff; 
+}
+
+.content-block p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.video-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.youtube-img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.youtube-img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+
+.contacto-section {
+    background-color: #004a80; 
+    color: white;
+    padding: 40px 10%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.contacto-section h2 {
+    color: white; 
+    border-bottom: 2px solid #ffffff55;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.contacto-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto-links a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+}
+
+
+.historia-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.historia-texto {
+    flex: 1;
+    text-align: left;
+}
+
+.historia-imagen img {
+    width: 170px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.titulo-rojo-claro {
+    color: #f20000 !important;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.subtitulo-naranja {
+    color: #b07000;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.mision-vision {
+    text-align: left;
+    padding: 30px;
+}
+
+
+footer {
+    background-color: #272626;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+[id] {
+    scroll-margin-top: 150px;
+}
+
+.btn-leer-mas {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #FF9800; 
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #000; 
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-leer-mas:hover {
+    background-color: #F57C00;
+    transform: scale(1.05);
+}
+.logo {
+    width: 250px;
+    height: 60px;
+    background: #fff;
+    border-radius: 5px;
+}

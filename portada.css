@@ -1,0 +1,24 @@
+
+@keyframes fadeOut {
+    from { 
+        opacity: 1; 
+        transform: scale(1);
+    }
+    to { 
+        opacity: 0; 
+        transform: scale(1.05);
+    }
+}
+.fade-out {
+    animation: fadeOut 0.6s ease-in-out forwards;
+    pointer-events: none;
+}
+.background-pattern {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnptMCAzNmMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmNzkwMCIgc3Ryb2tlLW9wYWNpdHk9Ii4xIiBzdHJva2Utd2lkdGg9IjEiLz48L2c+PC9zdmc+');
+    background-repeat: repeat;
+}
+@media (max-width: 640px) {
+    .background-pattern {
+        opacity: 0.15;
+    }
+}
